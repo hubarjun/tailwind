@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind css</title>
+    <link rel="stylesheet" href="../files/output.css" />
+  </head>
+  <body
+    class="min-h-screen text-white bg-slate-200 dark:bg-slate-950 dark:text-white"
+  >
+    <header class="sticky top-0 z-10 bg-violet-900">
+      <section class="max-w-4xl p-4 mx-auto flex justify-between items-center">
+        <a href="#top">
+          <h1 class="text-white font-extrabold capitalize text-xl">rockets</h1>
+        </a>
+        <div>
+          <button
+            class="focus:outline-none text-white text-3xl font-semibold sm:hidden"
+          >
+            &#9776;
+          </button>
+          <nav class="hidden sm:block text-lg space-x-8 font-medium">
+            <a class="hover:opacity-90 capitalize" href="#rockets">rockets</a>
+            <a class="capitalize hover:opacity-90" href="#testimonials"
+              >testimonials</a
+            >
+            <a class="hover:opacity-70 capitalize" href="#contactus"
+              >contact us</a
+            >
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main id="top" class="max-w-4xl mx-auto scroll-mt-20">
+      <section
+        class="flex flex-col-reverse gap-8 justify-center items-center sm:flex-row mb-12 p-6"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-md text-4xl mx-autoz1 sm:text-5xl text-slate-700 dark:text-white text-center sm:text-left font-black capitalize"
+          >
+            We boldy go <span class="text-violet-600">where no rocket</span> has
+            gone before
+          </h2>
+          <p
+            class="capitalize font-semibold mt-6 text-center sm:text-left text-slate-500 dark:text-slate-400"
+          >
+            we're building rockets for the next century today.from the moon to
+            mars,jupiter and beyond..
+          </p>
+        </article>
+
+        <img class="w-1/2" src="img/rocketdab.png" alt="" />
+      </section>
+      <hr class="mx-auto w-1/2" />
+      <section id="rockets" class="p-6 my-12 scroll-mt-20">
+        <h2
+          class="text-center text-4xl sm:text-5xl text-slate-700 dark:text-white capitalize font-bold mb-6"
+        >
+          our rockets
+        </h2>
+        <ul
+          class="mx-auto my-12 list-none items-center flex flex-col sm:flex-row gap-8"
+        >
+          <li
+            class="w-2/3 sm:w-5/6 flex mx-auto flex-col px-4 py-6 rounded-3xl shadow-xl items-center dark:bg-transparent bg-white border border-solid border-slate-900 dark:border-gray-100"
+          >
+            <img src="img/rocketman.png" class="w-1/2 my-6" alt="Rocketman" />
+            <h3
+              class="text-center text-3xl text-slate-700 dark:text-white capitalize"
+            >
+              explorer
+            </h3>
+            <p
+              class="hidden sm:block mt-2 text-center text-3xl capitalize text-slate-500 dark:text-slate-400"
+            >
+              $
+            </p>
+            <p
+              class="sm:block text-center text-slate-500 dark-text-slate-400 text-2xl capitalize mt-2"
+            >
+              affordable exploration
+            </p>
+          </li>
+          <li
+            class="w-2/3 sm:w-5/6 flex mx-auto flex-col px-4 py-6 rounded-3xl shadow-xl items-center dark:bg-transparent bg-white border border-solid border-slate-900 dark:border-gray-100"
+          >
+            <img src="img/rocketman.png" class="w-1/2 my-6" alt="Rocketman" />
+            <h3
+              class="text-center text-3xl text-slate-700 dark:text-white capitalize"
+            >
+              explorer
+            </h3>
+            <p
+              class="hidden sm:block mt-2 text-center text-3xl capitalize text-slate-500 dark:text-slate-400"
+            >
+              $
+            </p>
+            <p
+              class="sm:block text-center text-slate-500 dark-text-slate-400 text-2xl capitalize mt-2"
+            >
+              affordable exploration
+            </p>
+          </li>
+          <li
+            class="w-2/3 sm:w-5/6 flex mx-auto flex-col px-4 py-6 rounded-3xl shadow-xl items-center dark:bg-transparent bg-white border border-solid border-slate-900 dark:border-gray-100"
+          >
+            <img src="img/rocketman.png" class="w-1/2 my-6" alt="Rocketman" />
+            <h3
+              class="text-center text-3xl text-slate-700 dark:text-white capitalize"
+            >
+              explorer
+            </h3>
+            <p
+              class="hidden sm:block mt-2 text-center text-3xl capitalize text-slate-500 dark:text-slate-400"
+            >
+              $
+            </p>
+            <p
+              class="sm:block text-center text-slate-500 dark-text-slate-400 text-2xl capitalize mt-2"
+            >
+              affordable exploration
+            </p>
+          </li>
+        </ul>
+        <hr class="mx-auto w-1/2 font-semibold" />
+      </section>
+      <section id="testimonials" class="p-6 my-12 scroll-mt-20">
+        <h2
+          class="text-center text-4xl sm:text-5xl text-slate-700 dark:text-white capitalize font-bold mb-6"
+        >
+          testimonials
+        </h2>
+        <figure class="my-12">
+          <blockquote class="relative pl-14 pr-8 py-12 rounded-xl">
+            <p
+              class="text-2xl text-left sm:text-3xl text-slate-500 mt-2 before:text-9xl before:content-['\201C'] before:text-slate-500 before:absolute before:top-0 before:left-0 after:text-9xl after:content-['\201D'] after:text-slate-500 after:absolute after:-bottom-10 after:right-0"
+            >
+              Acme has always been there for me. Their Explorer rocket arrived
+              in a wooden crate as expected. Life-long customer! A++ shopping
+              experience.
+            </p>
+          </blockquote>
+          <figcaption class="text-right sm:text-2xl text-xl text-slate-700">
+            &#8212;Marvin The Martian &amp; K-9
+          </figcaption>
+        </figure>
+        <figure class="my-12">
+          <blockquote class="relative pl-14 pr-8 py-12 rounded-xl">
+            <p
+              class="text-2xl text-left sm:text-3xl text-slate-500 mt-2 before:text-9xl before:content-['\201C'] before:text-slate-500 before:absolute before:top-0 before:left-0 after:text-9xl after:content-['\201D'] after:text-slate-500 after:absolute after:-bottom-10 after:right-0"
+            >
+              Acme has always been there for me. Their Explorer rocket arrived
+              in a wooden crate as expected. Life-long customer! A++ shopping
+              experience.
+            </p>
+          </blockquote>
+          <figcaption
+            class="text-right sm:text-2xl text-xl text-slate-700 dark:text-slate-800"
+          >
+            &#8212;Marvin The Martian &amp; K-9
+          </figcaption>
+        </figure>
+        <figure class="my-12">
+          <blockquote class="relative pl-14 pr-8 py-12 rounded-xl">
+            <p
+              class="text-2xl text-left sm:text-3xl text-slate-500 mt-2 before:text-9xl before:content-['\201C'] before:text-slate-500 before:absolute before:top-0 before:left-0 after:text-9xl after:content-['\201D'] after:text-slate-500 after:absolute after:-bottom-10 after:right-0"
+            >
+              Acme has always been there for me. Their Explorer rocket arrived
+              in a wooden crate as expected. Life-long customer! A++ shopping
+              experience.
+            </p>
+          </blockquote>
+          <figcaption class="text-right sm:text-2xl text-xl text-slate-700">
+            &#8212;Marvin The Martian &amp; K-9
+          </figcaption>
+        </figure>
+        <hr class="mx-auto w-1/2" />
+      </section>
+      <section id="contactus" class="p-6 my-12 scroll-mt-20">
+        <h2
+          class="text-center text-4xl sm:text-5xl text-slate-700 dark:text-white capitalize font-bold mb-6"
+        >
+          contact us
+        </h2>
+        <form
+          action=""
+          class="max-w-4xl flex flex-col mx-auto text-2xl sm:text-3xl gap-3 m-20 text-slate-500"
+        >
+          <label for="Name">Name:</label>
+          <input
+            class="w-full focus:outline-none active:bg-slate-600 placeholder:text-slate-500 border border-solid border-slate-900 p-4 rounded-xl text-white bg-slate-600"
+            type="text"
+            id="Name"
+            placeholder="Enter your name"
+            name="Name"
+            required
+            autocomplete="off"
+          />
+          <label for="message">message</label>
+          <textarea
+            class="w-full focus:outline-none active:bg-slate-600 placeholder:text-slate-500 border border-solid border-slate-900 p-4 rounded-xl text-white bg-slate-600"
+            name="message"
+            id="message"
+            placeholder="Enter message"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <button
+            class="text-white bg-violet-900 active:bg-violet-700 hover:bg-violet-800 w-36 text-2xl p-3 mt-4 rounded-lg"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-violet-950 text-lg sm:text-xl overflow-hidden">
+      <section
+        class="max-w-4xl p-4 mx-auto flex flex-col sm:flex-row sm:justify-between gap-3"
+      >
+        <address>
+          <em>rockets,inc</em><br />
+          Email:
+          <a class="font-medium" href="mailto:arjunpandi707@gmail.com"
+            >arjunpandi707@gmail.com</a
+          ><br />
+          Phone:
+          <a class="font-bold" href="tel:">02934</a>
+        </address>
+        <nav class="hidden sm:flex flex-col gap-2 font-medium">
+          <a href="#rockets">Our Rockets</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contactus">Contactus</a>
+        </nav>
+        <div class="my-4 text-right font-thin">
+          <p>copyright &copy 2024</p>
+          <p>All Right Reserved</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
